@@ -1,0 +1,138 @@
+html {
+  box-sizing: border-box;
+}
+ *, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.jost{
+font-family: 'Jost', sans-serif;
+font-weight: Normal; /*  just so when ever you call use this class, it uses the normal font weight by default */
+}
+
+.jost-300{ /* you can also name this rbt-light or whatever you like*/
+font-weight:300;
+}
+
+.jost-400{
+font-weight:400;
+}
+
+p.strong{
+font-weight:600;
+}
+
+p.artcap{
+display: inline-block;
+}
+body {
+  font-family: 'Jost', sans-serif;
+  background-color: #fff;
+  color: #222529;
+  font-weight:300;
+  font-size: 100%;
+  font-style: normal;
+  margin:2% 10%;
+}
+h1{
+   font-family: 'Cantata One', serif;
+   font-weight:bold;
+   color: #222529;
+   text-align: center;
+ }
+h2{
+   font-family: 'Cantata One', serif;
+   font-weight:bold;
+   text-align: center;
+   color: #222529;
+   border-bottom:1px solid #222529;
+ }
+h3{
+   font-family: 'Cantata One', serif;
+   text-align: left;
+   font-weight:bold;
+   color: Gray;
+   border-bottom:1px solid gray;
+ }
+ h4{
+    font-family: 'Cantata One', serif;
+    text-align: center;
+    font-weight:bold;
+    color: #222529;
+  }
+ p.strong{
+   font-weight:500;
+
+ }
+ li{
+   font-size: 80%;
+ }
+ img.thumb{
+   text-align: center;
+   border-radius: 5%;
+   border:2px solid lightgray;
+ }
+ img.lg{
+   /*text-align: center;
+   border:1px solid gray;*/
+ }
+
+ img.toon {
+   float: left;
+ }
+ /* Style the header */
+.header {
+  /*background-color: #313131;*/
+  padding: 0.25em;
+  text-align: left;
+  width: 90%
+}
+.center {
+  margin: auto;
+  width: 100%;
+  /*border: 3px solid green;*/
+  padding: 10px;
+  text-align: center;
+}
+.imgcenter {
+  margin: auto;
+  /*border: 3px solid blue;*/
+  text-align: center;
+}
+.artimage{
+  /*border: 3px solid red;*/
+ display: inline-block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+footer img {
+  width:80px;
+  height:80px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.socicons{
+  display: inline-block;
+}
